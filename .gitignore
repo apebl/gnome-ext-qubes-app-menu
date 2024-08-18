@@ -1,0 +1,4 @@
+node_modules/
+gschemas.compiled
+*.pot
+qubes-app-menu@a.pebl.cc.shell-extension.zip

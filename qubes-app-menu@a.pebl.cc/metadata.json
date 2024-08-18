@@ -1,0 +1,9 @@
+{
+  "name": "Qubes App Menu",
+  "description": "Qubes app menu launcher",
+  "uuid": "qubes-app-menu@a.pebl.cc",
+  "version-name": "0.1.0",
+  "gettext-domain": "qubes-app-menu@a.pebl.cc",
+  "settings-schema": "org.gnome.shell.extensions.qubes-app-menu",
+  "shell-version": ["43"]
+}
