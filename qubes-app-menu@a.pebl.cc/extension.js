@@ -38,9 +38,8 @@ const AppMenuButton = GObject.registerClass(
       super(0.0, null, true)
       this.name = 'panelApplications'
 
-      const gicon = Gio.icon_new_for_string(`${Me.path}/icon.svg`)
       this.#icon = new St.Icon({
-        gicon: gicon,
+        icon_name: 'qubes-logo',
         style_class: 'system-status-icon',
       })
       this.add_actor(this.#icon)
